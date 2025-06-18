@@ -30,11 +30,35 @@ Etapa 3:
  - Foco da ferramenta: Serviço de armazenamento de objetos projetado para dados acessados com frequência, com alta durabilidade, disponibilidade e escalabilidade.
  - Descrição de caso de uso: Armazenamento centralizado de documentos, imagens de receitas, notas fiscais eletrônicas e backups de sistemas das farmácias, com acesso rápido e seguro. O uso de políticas de ciclo de vida pode mover dados antigos para classes de armazenamento mais baratas, otimizando ainda mais os custos.
 
+### Recomendações Adicionais
+- Segurança:
+
+AWS Identity and Access Management (IAM): Gerencie permissões e acesso de usuários e serviços de forma granular.  
+AWS Key Management Service (KMS): Gerencie chaves de criptografia para proteger dados sensíveis.  
+AWS GuardDuty: Serviço de detecção de ameaças para monitorar atividades maliciosas e comportamento não autorizado.
+
+- Observabilidade:
+
+Amazon CloudWatch: Monitore métricas, logs e alarmes para identificar e responder rapidamente a incidentes.  
+AWS CloudTrail: Audite e registre todas as ações realizadas na conta AWS, garantindo rastreabilidade e conformidade.  
+
+- Governança e Melhores Práticas:
+
+AWS Cloud Adoption Framework (AWS CAF): Utilize o AWS CAF para alinhar a estratégia de adoção de cloud com os objetivos de negócio, abordando seis perspectivas: negócios, pessoas, governança, plataforma, segurança e operações.
+- Monitoramento e Otimização Contínua:
+
+AWS Cost Explorer e AWS Budgets: Monitore gastos e identifique oportunidades de economia contínua.  
+Automação de Backups e Políticas de Retenção: Implemente automação para backups e políticas de retenção de dados, reduzindo riscos e custos operacionais.
+- Treinamento e Capacitação:
+
+Invista em capacitação da equipe para uso eficiente dos recursos AWS, evitando desperdícios e melhorando a governança.
+
+
 ### Conclusão
 
-A implementação dos serviços AWS na Abstergo Industries proporcionará maior eficiência, escalabilidade e segurança, além de significativa redução de custos operacionais. A adoção dessas ferramentas é fundamental para o crescimento sustentável da rede de farmácias, permitindo que a empresa acompanhe as demandas do mercado com flexibilidade e controle financeiro. Recomenda-se a continuidade da utilização das soluções implementadas e a avaliação periódica de novas tecnologias que possam agregar ainda mais valor aos processos da empresa.
+A implementação dos serviços AWS na Abstergo Industries proporcionará maior eficiência, escalabilidade e segurança, além de significativa redução de custos operacionais. A adoção dessas ferramentas é fundamental para o crescimento sustentável da rede de farmácias, permitindo que a empresa acompanhe as demandas do mercado com flexibilidade e controle financeiro. Recomenda-se a continuidade da utilização das soluções implementadas, a avaliação periódica de novas tecnologias e a adoção das melhores práticas de segurança, observabilidade e governança para garantir a evolução contínua dos processos da empresa.
 
-Ana Luiza Santos
+Ana Luiza Santos  
 Responsável pelo Projeto de Implementação Cloud
 
 Abstergo Industries
